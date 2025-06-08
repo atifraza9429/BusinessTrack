@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Your Business Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Contact Us</h1>
+  </header>
+  <section>
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="form-response"></p>
+    </form>
+    <h2>Where to Find Us</h2>
+    <!-- Google Maps Embed -->
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531531564!3d-37.81627917975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f7c7a7%3A0x5045675218ce740!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1614025897308!5m2!1sen!2sus" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <h2>Book an Appointment</h2>
+    <form id="booking-form">
+      <label for="date">Choose a date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Choose a time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Book Now</button>
+      <p id="booking-response"></p>
+    </form>
+  </section>
+  <footer>
+    <div class="social-links">
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">LinkedIn</a>
+    </div>
+    <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
