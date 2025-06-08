@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Business Name - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Welcome to Your Business Name</h1>
+    <p>Your tagline or a short description about your services.</p>
+  </header>
+
+  <!-- Professional Business Images Section -->
+  <section id="business-photos">
+    <h2>Meet Our Professionals</h2>
+    <div class="photo-gallery">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Professional business man 1">
+      <img src="https://images.unsplash.com/photo-1519340333755-c892b89f39e7?auto=format&fit=crop&w=400&q=80" alt="Professional business man 2">
+      <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80" alt="Professional business man 3">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Professional business woman 1">
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Service 1: Brief description</li>
+      <li>Service 2: Brief description</li>
+      <li>Service 3: Brief description</li>
+    </ul>
+    <a class="main-btn" href="services.html">Learn More</a>
+  </section>
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <blockquote>
+        "Fantastic service! Highly recommend."
+      </blockquote>
+      <cite>- Happy Customer</cite>
+    </div>
+  </section>
+  <footer>
+    <div class="social-links">
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">LinkedIn</a>
+    </div>
+    <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

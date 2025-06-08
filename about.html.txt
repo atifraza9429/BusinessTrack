@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Your Business Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h1>About Us</h1>
+  </header>
+  <section>
+    <h2>Our Story</h2>
+    <p>
+      Your Business Name was founded with a mission to provide exceptional services to our clients. With years of experience and a dedicated team of professionals, we strive for excellence in every project.
+    </p>
+    <h2>Meet the Team</h2>
+    <div class="photo-gallery">
+      <img src="https://images.unsplash.com/photo-1517363898873-fafc2070293c?auto=format&fit=crop&w=400&q=80" alt="Team member 1">
+      <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Team member 2">
+      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Team member 3">
+    </div>
+  </section>
+  <footer>
+    <div class="social-links">
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">LinkedIn</a>
+    </div>
+    <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
